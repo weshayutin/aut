@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>autSource </title>
+<meta name="keywords" content="autism software testing qe qa " />
+<meta name="description" content="" />
+<link href="../style-content.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="logo">
+		<h1> <a href="">autSource  </a></h1>
+	</div>
+	<hr />
+	<!-- end #logo -->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="http://autsource.org">Home</a></li>
+				<li><a href="http://autsource.org/Blog">Blog</a></li>
+				<li><a href="http://autsource.org/Assessment">Assessment</a></li>
+				<li><a href="http://autsource.org/Training">Training</a></li>
+				<li class="current_page_item"><a href="http://autsource.org/Curriculum">Curriculum</a></li>
+				<li><a href="http://autsource.org/About">About</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<div id="search">
+			<form method="get" action="">
+				<fieldset>
+				<input type="text" name="s" id="search-text" size="15" />
+				<input type="submit" id="search-submit" value="GO" />
+				</fieldset>
+			</form>
+		</div>
+		<!-- end #search -->
+	</div>
+	<!-- end #header -->
+	<!-- end #header-wrapper -->
+	<div id="page">
+	<div id="page-bgtop">
+		<div id="content">
+			<div class="post">
+				<h2 class="title">Curriculum </h2>
+				<div class="entry">
+				</div>
+			<p><div>"<span style="font-family: sans-serif;">A&nbsp;<b>software bug</b>&nbsp;is the common term used to describe an error, flaw, mistake,&nbsp;<a href="/wiki/Failure" title="Failure" style="text-decoration: none; color: rgb(0, 43, 184); background-image: none;">failure</a>, or&nbsp;<a href="/wiki/Fault_%28technology%29" title="Fault (technology)" style="text-decoration: none; color: rgb(0, 43, 184); background-image: none;">fault</a>&nbsp;in a&nbsp;<a href="/wiki/Computer_program" title="Computer program" style="text-decoration: none; color: rgb(0, 43, 184); background-image: none;">computer program</a>&nbsp;or&nbsp;<a href="/wiki/Software_system" title="Software system" style="text-decoration: none; color: rgb(0, 43, 184); background-image: none;">system</a>&nbsp;that produces an incorrect or unexpected result, or causes it to behave in unintended ways. " http://en.wikipedia.org/wiki/Software_bug</span></div>
+<div><br>
+</div>
+<div>Lets go over some basic concepts in SQA. First lets find out some of the people and teams we will be working with.</div>
+<div>On a typical QA team you may have a person fulfilling one or more of the following roles.</div>
+<div><br>
+</div>
+<div>QA Team Roles:</div>
+<div>
+<ul><li><span style="font-family: sans-serif;"><i>&nbsp;<b>manager:</b> Like any other manager this will be the person who is ultimately responsible for the quality of a software project</i></span></li>
+<li><span style="font-family: sans-serif;">&nbsp;<i><b>test lead:</b> A person who is a the subject matter expert, most technical questions can be addressed by the test lead</i></span></li>
+<li><span style="font-family: sans-serif;"><i>&nbsp;<b>test designer:</b> Creates documentation and procedures required for a successful test</i></span></li>
+<li><span style="font-family: sans-serif;">&nbsp;<i><b>tester:</b> Executes the tests and is responsible for reporting bugs</i></span></li></ul>
+<br>
+</div>
+<div>QA Concepts:</div>
+<div>
+<ul><li><b>Software Bug:</b> &nbsp;we've already defined this above, a failure, fault or issue&nbsp;</li>
+<li><b>Defect:</b> is a software bug that has been reported, a defect will have a unique id or serial number to identify it</li>
+<li><b>Test Plan:</b> (IEEE 829, definitions)</li>
+<ul><li><span style="font-family: sans-serif;">How the testing will be done (including SUT configurations).</span></li>
+<li>Who will do it</li>
+<li>What will be tested</li>
+<li>How long it will take (although this may vary, depending upon resource availability).</li>
+<li>What the test coverage will be, i.e. what quality level is required</li></ul>
+<li><span style="font-family: sans-serif;"><b>Test Case:</b></span></li>
+<ul><li><font class="Apple-style-span" face="sans-serif">contains test procedures, test data and expected results. &nbsp;This is basically the cook book or how-to document</font></li></ul>
+<li><font class="Apple-style-span" face="sans-serif"><b>Test Incident Report:</b></font></li>
+<ul><li><font class="Apple-style-span" face="sans-serif">a way to report and document an issue that does not meet the criteria to be a defect.&nbsp;</font></li></ul></ul>
+</div>
+<div><br>
+</div>
+Software Development:
+<div>
+<div>
+<ul><li><b>Software Developer: </b>A person who writes the software for an application.</li>
+<li><b>Software Application:</b>&nbsp;software designed to perform a task, examples are word processors, web browsers, etc.</li>
+<li><b>Software Feature:</b> A unit of the software application. &nbsp;Software applications can be divided into their most basic functions. &nbsp;The spell &nbsp; checker would be an example of a software feature of a word processor. &nbsp;We will be dividing our work as testers by software feature.</li>
+<li><b>Code: </b>Common term for software</li>
+<li><b>The Software Development Life cycle (SDLC): </b>The name for the full process of creating software and software applications.</li>
+<li><b>A build:</b>&nbsp;A version of the software, a project will have many versions until the final released version of the software. 
+</li></ul></ul><p>
+<div>Now that we have a basic understanding of the basic concepts and players lets walk through some examples in the testing process. &nbsp;We obviously have to wait for the software developers to write some software before we test it. &nbsp;There are many different methods, techniques and processes that software developers will use to develop software, for now we are going mostly skip over this. &nbsp; These methods are variations on the SDLC.&nbsp;</div>
+<div><br>
+</div>
+<div>For the sake of not getting off track we will assume that the developers are ready for us to test some software. &nbsp;We are also assuming that testing requirements, test plans and test cases have all been created and we're ready to execute! &nbsp; Lets walk through the process.</div>
+<div><br>
+</div>
+<div>Dave is a developer working on a feature that he is ready to have tested by us. &nbsp;Dave provides our team with a build of the software and asks us to test the spell checker feature. &nbsp;As testers it is our responsibility to install and test the build that Dave gave us, luckily we have clear documentation for both. &nbsp;&nbsp;</div>
+<div><br>
+</div>
+<div>First, we look at our test plan and find the instructions for installing the build, its not quite as easy to install as the software we're used to using but we get through it. &nbsp;Next we look at our test plan and find the test cases that are available to test the spell checker feature.</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<br>
+<div><br>
+</div>
+
+<br>
+  </p>
+			</div>
+		</div>
+		<!-- end #content -->
+</div>
+</body>
+</html>
